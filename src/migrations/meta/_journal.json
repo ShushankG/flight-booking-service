@@ -22,6 +22,13 @@
       "when": 1753008655772,
       "tag": "0002_glossy_piledriver",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1753027298935,
+      "tag": "0003_added-cost-no0fseats-col-in-bookings-table",
+      "breakpoints": true
     }
   ]
 }

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npx nodemon ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "drizzle-kit generate --config=./src/config/drizzleKitConfig.js && drizzle-kit push --config=./src/config/drizzleKitConfig.js"
+    "migrate": "drizzle-kit generate --name=$npm_config_name --config=./src/config/drizzleKitConfig.js && drizzle-kit push --config=./src/config/drizzleKitConfig.js"
   },
   "keywords": [],
   "author": "",

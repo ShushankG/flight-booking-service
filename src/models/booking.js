@@ -4,6 +4,7 @@ import {
   varchar,
   timestamp,
   int,
+  float,
 } from "drizzle-orm/mysql-core";
 
 export const booking = mysqlTable("bookings", {
@@ -16,6 +17,8 @@ export const booking = mysqlTable("bookings", {
   })
     .notNull()
     .default("inprogress"),
+  noOfSeats: int("no_of_seats", { unsigned: true }).notNull(),
+  cost: float("total_cost",{unsigned:true}).notNull(),
   createdAt: timestamp("created_at").defaultNow(),
   updatedAt: timestamp("updated_at").defaultNow().onUpdateNow(),
 });
