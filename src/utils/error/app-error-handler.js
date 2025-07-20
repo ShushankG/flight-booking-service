@@ -1,5 +1,5 @@
 //Generic issue
-class AppError {
+export class AppError extends Error {
   constructor(
     name,
     message,

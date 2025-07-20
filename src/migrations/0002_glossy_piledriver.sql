@@ -1,0 +1,1 @@
+ALTER TABLE `bookings` ADD `created_at` timestamp DEFAULT (now());

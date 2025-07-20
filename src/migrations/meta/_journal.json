@@ -8,6 +8,20 @@
       "when": 1753000903751,
       "tag": "0000_absent_ben_parker",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1753008639611,
+      "tag": "0001_ordinary_quentin_quire",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1753008655772,
+      "tag": "0002_glossy_piledriver",
+      "breakpoints": true
     }
   ]
 }

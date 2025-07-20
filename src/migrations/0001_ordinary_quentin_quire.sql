@@ -1,0 +1,1 @@
+ALTER TABLE `bookings` DROP COLUMN `created_at`;
