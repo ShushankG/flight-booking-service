@@ -1,7 +1,7 @@
 import express from "express";
+import * as BookingController from "../../controllers/bookingController.js";
+const router = express.Router();
 
-const router=express.Router();
+router.post("/create-booking", BookingController.create);
 
-router.get('/test-route',(req,res)=> res.json({message:"welcome to air line services"}))
-
-export {router as v1Routes}
+export { router as v1Routes };
